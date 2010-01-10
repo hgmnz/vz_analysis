@@ -14,8 +14,8 @@ names(vz) <- c("subject_descriptor", "units","scale",
               "2005", "2006", "2007", "2008", "2009",
               "2010", "2011", "2012", "2013", "2014")
 
-molten_vz <- melt(vz, id=c("Subject_Descriptor", "Units", "Scale"))
-vz_econ   <- cast(molten_vz, variable ~ Subject_Descriptor)
+molten_vz <- melt(vz, id=c("subject_descriptor", "units", "scale"))
+vz_econ   <- cast(molten_vz, variable ~ subject_descriptor)
 names(vz_econ) <- c("year", "account_balance", "gdp_capita", "gdp_constant", "gdp", "avg_inflation", "population")
 vz_econ$year <- as.numeric(as.character(vz_econ$year))
 
