@@ -22,4 +22,5 @@ vz_econ$year <- as.numeric(as.character(vz_econ$year))
 plot <- ggplot(vz_econ)
 plot + geom_line(aes(x=year, y=gdp, size=population, colour=avg_inflation))
 
-
+# data plotted as points of varying size and color, with a trend line
+plot + geom_point(aes(x=year, y=gdp, size=population, colour=avg_inflation)) + geom_smooth(aes(x=year, y=gdp))
