@@ -3,8 +3,9 @@
 library('reshape')
 library('ggplot2')
 
-vz <- read.csv(file="../data/data-fmi.csv")
-names(vz) <- c("Subject_Descriptor", "Units","Scale",
+setwd('code/play/vz')
+vz <- read.csv(file="data/data-fmi.csv")
+names(vz) <- c("subject_descriptor", "units","scale",
               "1980", "1981", "1982", "1983", "1984",
               "1985", "1986", "1987", "1988", "1989",
               "1990", "1991", "1992", "1993", "1994",
