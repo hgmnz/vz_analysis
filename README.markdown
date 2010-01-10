@@ -24,4 +24,4 @@ This plot is very preliminary, and only uses the IMF datasource.
 
 It shows an enormous growth in GDP, along with record high average inflation rate affecting a growing population.
 
-![GDP, inflation and population](http://img.skitch.com/20100110-ji1wipsbs4fhystutwstw2dnai.png "GDP, inflation and population")
+![GDP, inflation and population](http://img.skitch.com/20100110-uyygsubtwtfngjmrruquttpmd.png "GDP, inflation and population")
